@@ -9,7 +9,7 @@ group :development, :test do
   gem "jruby-openssl", platform: :jruby
 
   gem "draper"
-  gem "devise"
+  gem "devise", ">= 4.9.4"
 
   gem "rails", "~> 6.1.0"
   gem "activerecord-jdbcsqlite3-adapter", platform: :jruby

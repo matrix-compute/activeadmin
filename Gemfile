@@ -8,7 +8,7 @@ group :development, :test do
   gem "pundit"
 
   gem "draper"
-  gem "devise"
+  gem "devise", ">= 4.9.4"
 
   gem "rails", "~> 7.1.0"
 

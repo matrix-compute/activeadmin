@@ -48,12 +48,12 @@ group :release do
 end
 
 group :rubocop do
-  gem "rubocop"
-  gem "rubocop-capybara"
+  gem "rubocop", ">= 1.58.0"
+  gem "rubocop-capybara", ">= 2.20.0"
   gem "rubocop-packaging"
-  gem "rubocop-performance"
-  gem "rubocop-rspec"
-  gem "rubocop-rails"
+  gem "rubocop-performance", ">= 1.20.0"
+  gem "rubocop-rspec", ">= 2.26.0"
+  gem "rubocop-rails", ">= 2.22.2"
 end
 
 group :docs do

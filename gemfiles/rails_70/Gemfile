@@ -12,7 +12,7 @@ group :development, :test do
 
   gem "rails", "~> 7.0.0"
 
-  gem "sprockets-rails"
+  gem "sprockets-rails", ">= 3.5.0"
   gem "sassc-rails"
 
   gem "cssbundling-rails"

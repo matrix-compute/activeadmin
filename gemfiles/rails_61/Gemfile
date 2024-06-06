@@ -14,7 +14,7 @@ group :development, :test do
   gem "rails", "~> 6.1.0"
   gem "activerecord-jdbcsqlite3-adapter", platform: :jruby
 
-  gem "sprockets-rails"
+  gem "sprockets-rails", ">= 3.5.0"
   gem "sassc-rails"
 
   gem "cssbundling-rails"

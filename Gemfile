@@ -12,7 +12,7 @@ group :development, :test do
 
   gem "rails", "~> 7.1.0"
 
-  gem "sprockets-rails"
+  gem "sprockets-rails", ">= 3.5.0"
   gem "sassc-rails"
   gem "ransack", ">= 4.1.0"
   gem "formtastic", ">= 5.0.0"

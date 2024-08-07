@@ -1,5 +1,5 @@
-default: true
-MD002: false
+ default: true
+CCV: false
 MD013: false
 MD024: false
 MD041: false

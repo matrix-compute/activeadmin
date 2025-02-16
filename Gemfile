@@ -10,7 +10,7 @@ group :development, :test do
   gem "draper"
   gem "devise"
 
-  gem "rails", "~> 7.1.0"
+  gem "rails", "~> 7.2.0"
 
   gem "sprockets-rails"
   gem "sassc-rails"
@@ -51,9 +51,9 @@ group :rubocop do
   gem "rubocop"
   gem "rubocop-capybara"
   gem "rubocop-packaging"
-  gem "rubocop-performance"
-  gem "rubocop-rspec"
-  gem "rubocop-rails"
+  gem "rubocop-performance", ">= 1.24.0"
+  gem "rubocop-rspec", ">= 3.5.0"
+  gem "rubocop-rails", ">= 2.30.0"
 end
 
 group :docs do

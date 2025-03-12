@@ -49,7 +49,7 @@ end
 
 group :rubocop do
   gem "rubocop"
-  gem "rubocop-capybara"
+  gem "rubocop-capybara", ">= 2.22.0"
   gem "rubocop-packaging"
   gem "rubocop-performance"
   gem "rubocop-rspec"

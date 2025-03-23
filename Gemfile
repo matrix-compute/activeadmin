@@ -37,7 +37,7 @@ group :test do
   gem "sqlite3", platform: :mri
 
   # Translations
-  gem "i18n-tasks"
+  gem "i18n-tasks", ">= 1.0.14"
   gem "i18n-spec"
   gem "rails-i18n" # Provides default i18n for many languages
 end
@@ -50,7 +50,7 @@ end
 group :rubocop do
   gem "rubocop"
   gem "rubocop-capybara"
-  gem "rubocop-packaging"
+  gem "rubocop-packaging", ">= 0.6.0"
   gem "rubocop-performance"
   gem "rubocop-rspec"
   gem "rubocop-rails"

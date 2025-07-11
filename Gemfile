@@ -24,7 +24,7 @@ end
 group :test do
   gem "cuprite"
   gem "capybara"
-  gem "webrick"
+  gem "webrick", ">= 1.8.2"
 
   gem "simplecov", require: false # Test coverage generator. Go to /coverage/ after running tests
   gem "simplecov-cobertura", require: false
@@ -37,7 +37,7 @@ group :test do
   gem "sqlite3", platform: :mri
 
   # Translations
-  gem "i18n-tasks"
+  gem "i18n-tasks", ">= 1.0.14"
   gem "i18n-spec"
   gem "rails-i18n" # Provides default i18n for many languages
 end

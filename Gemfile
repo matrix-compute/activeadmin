@@ -7,24 +7,24 @@ group :development, :test do
   gem "cancancan"
   gem "pundit"
 
-  gem "draper"
-  gem "devise"
+  gem "draper", ">= 4.0.4"
+  gem "devise", ">= 4.9.4"
 
-  gem "rails", "~> 7.1.0"
+  gem "rails", "~> 7.1.2"
 
-  gem "sprockets-rails"
+  gem "sprockets-rails", ">= 3.5.0"
   gem "sassc-rails"
   gem "ransack", ">= 4.1.0"
   gem "formtastic", ">= 5.0.0"
 
-  gem "cssbundling-rails"
-  gem "jsbundling-rails"
+  gem "cssbundling-rails", ">= 1.4.0"
+  gem "jsbundling-rails", ">= 1.2.2"
 end
 
 group :test do
-  gem "cuprite"
-  gem "capybara"
-  gem "webrick"
+  gem "cuprite", ">= 0.15"
+  gem "capybara", ">= 3.40.0"
+  gem "webrick", ">= 1.8.2"
 
   gem "simplecov", require: false # Test coverage generator. Go to /coverage/ after running tests
   gem "simplecov-cobertura", require: false
@@ -33,13 +33,13 @@ group :test do
   gem "database_cleaner"
   gem "launchy"
   gem "parallel_tests"
-  gem "rspec-rails"
+  gem "rspec-rails", ">= 6.0.4"
   gem "sqlite3", platform: :mri
 
   # Translations
-  gem "i18n-tasks"
+  gem "i18n-tasks", ">= 1.0.14"
   gem "i18n-spec"
-  gem "rails-i18n" # Provides default i18n for many languages
+  gem "rails-i18n" , ">= 7.0.9" # Provides default i18n for many languages
 end
 
 group :release do
@@ -53,7 +53,7 @@ group :rubocop do
   gem "rubocop-packaging"
   gem "rubocop-performance"
   gem "rubocop-rspec"
-  gem "rubocop-rails"
+  gem "rubocop-rails", ">= 2.22.2"
 end
 
 group :docs do

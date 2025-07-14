@@ -27,7 +27,7 @@ group :test do
   gem "webrick"
 
   gem "simplecov", require: false # Test coverage generator. Go to /coverage/ after running tests
-  gem "simplecov-cobertura", require: false
+  gem "simplecov-cobertura", ">= 3.0.0", require: false
   gem "cucumber-rails", require: false, github: "cucumber/cucumber-rails", branch: "main"
   gem "cucumber"
   gem "database_cleaner"
@@ -37,7 +37,7 @@ group :test do
   gem "sqlite3", platform: :mri
 
   # Translations
-  gem "i18n-tasks"
+  gem "i18n-tasks", ">= 1.0.14"
   gem "i18n-spec"
   gem "rails-i18n" # Provides default i18n for many languages
 end

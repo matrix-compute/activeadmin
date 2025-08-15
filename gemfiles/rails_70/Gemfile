@@ -10,7 +10,7 @@ group :development, :test do
   gem "draper"
   gem "devise"
 
-  gem "rails", "~> 7.0.0"
+  gem "rails", "~> 7.1.5", ">= 7.1.5.2"
 
   gem "sprockets-rails"
   gem "sassc-rails"
@@ -28,7 +28,7 @@ group :test do
   gem "simplecov-cobertura", require: false
   gem "cucumber-rails", require: false
   gem "cucumber"
-  gem "database_cleaner"
+  gem "database_cleaner", ">= 2.1.0"
   gem "launchy"
   gem "parallel_tests"
   gem "rspec-rails"

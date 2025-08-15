@@ -10,11 +10,11 @@ group :development, :test do
   gem "draper"
   gem "devise"
 
-  gem "rails", "~> 7.1.0"
+  gem "rails", "~> 7.1.5", ">= 7.1.5.2"
 
   gem "sprockets-rails"
   gem "sassc-rails"
-  gem "ransack", ">= 4.1.0"
+  gem "ransack", ">= 4.1.1"
   gem "formtastic", ">= 5.0.0"
 
   gem "cssbundling-rails"
@@ -30,7 +30,7 @@ group :test do
   gem "simplecov-cobertura", require: false
   gem "cucumber-rails", require: false, github: "cucumber/cucumber-rails", branch: "main"
   gem "cucumber"
-  gem "database_cleaner"
+  gem "database_cleaner", ">= 2.1.0"
   gem "launchy"
   gem "parallel_tests"
   gem "rspec-rails"

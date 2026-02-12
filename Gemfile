@@ -44,7 +44,7 @@ end
 
 group :release do
   gem "chandler" # Github releases from changelog
-  gem "octokit"
+  gem "octokit", ">= 8.0.0"
 end
 
 group :rubocop do
